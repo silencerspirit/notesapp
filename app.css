@@ -1,0 +1,152 @@
+/*body {
+	background-color: #222222;
+	color: white;
+	font-family: sans-serif;
+}
+
+#root {
+	text-align: center;
+	margin-top: 50px;
+}
+
+img {
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.container {
+	margin-bottom: 50px;
+}
+
+.image-counter {
+	display: inline-block;
+	position: relative;
+}
+
+.image-counter .count {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	font-size: 2rem;
+	transform: translateY(-50%);
+	transition: all .2s;
+}
+
+.image-counter:hover .count {
+	opacity: 1;
+	left: 110%;
+}
+.contacts {
+	width: 300px;
+	margin: 0 auto;
+}
+.search-field {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+}
+.contacts-list {
+	padding: 0;
+	width: 100%;
+}
+.contact {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	font-family: sans-serif;
+	width: 100%;
+	padding: 5px;
+	border-bottom: 1px dotted grey;
+}
+.contact-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+.contact-phone {
+	font-size: 18px;
+	color: grey;
+}*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	font-weight: 300;
+	background-color: #BCD7D0;
+}
+#root {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.note {
+	position: relative;
+	width: 200px;
+	height: auto;
+	float: left;
+	background-color: #bcd7d0;
+	box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 2px;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	transition: all .3s ease;
+	font-family: 'Verdana', sans-serif;
+}
+
+.note:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.note-editor {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.notes-app {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textarea {
+	width: 80%;
+	outline: none;
+	resize: none;
+	max-height: 150px;
+	background-color: transparent;
+	border: none;
+	white-space: wrap;
+	overflow: auto;
+	font-size: 16px;
+	color: #000;
+}
+.add-button {
+	padding: 8px 28px;
+	margin: 0 auto;
+	background-color: #05E6CF;
+	border: none;
+	border-radius: 3px;
+	font-size: 18px;
+}
+.delete-note {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	font-size: 20px;
+	color: 000;
+	font-family: 'Ubuntu';
+
+}
